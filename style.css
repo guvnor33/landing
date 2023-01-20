@@ -148,6 +148,25 @@ body {
   .section3 {
     height: 250px;
     background: lightgray;
+    display: flex;
+    flex-direction: column;
+    padding: 80px 180px;
+
+  }
+  .section3-content {
+    color:#1f2937;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 36px;
+    padding-bottom: 25px;
+  }
+  .section3-citation {
+    /* justify-content: flex-end; */
+    align-self: flex-end;
+    color:#1f2937;
+    font-weight: bold;
+    font-size: 30px;
+
   }
   .section4 {
     height: 250px;
